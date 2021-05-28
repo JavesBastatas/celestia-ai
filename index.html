@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Celestia AI Chatbot - Using NLP</title>
+
+    <link rel="preload" href="assets/css/dark.mini.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="assets/css/animate.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="assets/css/fonts.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="assets/css/main.css" as="style" onload="this.rel='stylesheet'">
+</head>
+<body>
+
+
+    <header id="header" class="sticky shadowed">
+        <h1>Celestia</h1>
+        <span>AI</span>
+    </header>
+
+    <div id="messages-area-wrapper" class="container">
+        <div id="messages-area" class="row col-sm-12">
+            <div id="messages-loading" class="col-sm-12">
+                <h4>Loading...</h4>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer" class="sticky">
+        <input id="message-input" placeholder="Type your message here ..." type="text">
+        <button id="send" class="primary">
+            <span class="icon-mail inverse"></span>
+        </button>
+    </footer>
+
+    <script defer src="assets/js/amdlite.js"></script>
+    <script async src="assets/js/lib/console.js"></script>
+    <script async src="assets/js/main.js"></script>
+
+</body>
+</html>
