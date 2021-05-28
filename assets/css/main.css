@@ -1,0 +1,85 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+#header {
+    background: #1C79C6;
+    color: #f8f8ff;
+    padding: .2em 0 .2em 1em;
+}
+
+header h1 {
+    font-size: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+    font-weight: 500;
+    display: inline-block;
+}
+
+#header span {
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+    display: inline-block;
+}
+
+#footer {
+    z-index: 5;
+}
+
+#messages-area-wrapper {
+    height: 100%;
+}
+
+#messages-area {
+    height: 95%;
+    padding: 1em 1em 0 1em;
+    overflow-x: hidden;
+}
+
+#message-input {
+    width: 75%;
+}
+.message {
+    position: relative;
+    margin: 1em 0 0 0;
+}
+.message .content {
+    color: #f8f8ff;
+    padding: .5em .8em;
+    border-radius: 1em;
+    width: fit-content !important;
+    height: fit-content;
+    min-width: 3em;
+}
+
+.message .content.bot {
+    float: left;
+    background: #1C79C6;
+}
+
+.message .info.bot {
+    float: left;
+}
+.message .info.user {
+    float: right;
+}
+
+.message .content.user {
+    float: right;
+    background: crimson;
+}
+
+.bot {
+    float: left;
+}
+
+.user {
+    float: right;
+}
