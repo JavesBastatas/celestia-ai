@@ -11,7 +11,7 @@ A simple implementation and demonstration of how NLP works using NLP.js.
  - [NLP.js](https://github.com/axa-group/nlp.js) A Natural Language Processing Library
  - [eruda.js](https://github.com/liriliri/eruda) A console alternative for mobile. Useful for debugging in mobiles.
 
-## MainContributor/s:
+## Main Contributor/s:
  - [Javes Bastatas](https://github.com/JavesBastatas)
  - [Zynthasius] (https://github.com/Zynthasius)
 
