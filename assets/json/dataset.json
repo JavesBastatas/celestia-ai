@@ -546,6 +546,7 @@
             ],
             "answers": [
                 "My pleasure",
+                "Thanks",
                 "Glad I could help"
             ]
         },
@@ -577,6 +578,7 @@
             "answers": [
                 "I love hugs",
                 "Hugs are the best!",
+                "Yes! {heart_emoji} *hugs",
                 "Ofc, Celestia always loves these hugs {heart_emoji}",
                 "Thats sus"
             ]
@@ -681,7 +683,7 @@
                 "hu?"
             ],
             "answers": [
-                "bruh"
+                "bruh. What are you talking about?"
             ]
         }]
 }
